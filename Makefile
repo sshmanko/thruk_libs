@@ -15,7 +15,6 @@ endif
 
 MODULES = \
           AppConfig-1.71.tar.gz \
-          Canary-Stability-2012.tar.gz \
           Carp-Clan-6.04.tar.gz \
           Class-Inspector-1.28.tar.gz \
           Class-Singleton-1.5.tar.gz \
@@ -128,6 +127,7 @@ build:
 	            Module-CoreList-*.tar.gz \
 	            common-sense-*.tar.gz \
 	            Types-Serialiser-*.tar.gz \
+		    Canary-Stability-2012.tar.gz \
 	            JSON-*.tar.gz; \
 	    export PERL_JSON_BACKEND='JSON::XS'; \
 	    cd $(P5TMPDIST)/src && \
