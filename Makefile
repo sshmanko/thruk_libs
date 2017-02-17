@@ -15,6 +15,7 @@ endif
 
 MODULES = \
           AppConfig-1.71.tar.gz \
+          Canary-Stability-2012.tar.gz \
           Carp-Clan-6.04.tar.gz \
           Class-Inspector-1.28.tar.gz \
           Class-Singleton-1.5.tar.gz \
